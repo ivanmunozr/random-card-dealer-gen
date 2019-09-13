@@ -5,15 +5,53 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hello Rigo with Vanilla.js</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-        <link rel="shortcut icon" href="./4geeks.ico"></head>
+        <link rel="shortcut icon" href="./4geeks.ico">
+        <style> body {
+  background-color: green;
+}
+
+#carta {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-color: black;
+  border-style: solid 2px;
+  margin: auto;
+  font-size: 120px;
+  border-radius: 20px;
+}
+
+#pinta-up {
+  color: red;
+  height: 120px;
+  padding-left: 20px;
+}
+
+#pinta-down {
+  color: red;
+  height: 120px;
+  padding-left: 20px;
+}
+
+#numero {
+  height: 260px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 260px;
+}
+
+</style>
+</head>
+
     <body>
-        <div class="container-fluid text-center">
-            <h1 class="mt-5">Hello Rigo!</h1>
-            <img src="./rigo-baby.jpg"></img>
-            <p class="alert alert-warning mt-4">If this text is <b>not</b> centered and <b>yellow</b>, you probably have an error</p>
-            <div class="fixed-bottom p-4">
-                Made with ❤️ by <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-            </div>
+        <div class="container-fluid text-center" id="carta">
+
+            <div id="pinta-up">&hearts;</div>
+
+            <div id="numero">13</div>
+
+            <div id="pinta-down" style="transform: rotate(180deg)">&hearts;</div>
+
         </div>
 
 
